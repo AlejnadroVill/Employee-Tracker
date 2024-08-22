@@ -60,7 +60,7 @@ async function addEmployee(firstName, lastName, roleId, managerId) {
   const conection = await connectToDatabase();
 
   const query = await conection.query(
-    `INSERT INTO roles (first_name, last_name, role_id, manager_id) VALUES ($1, $2, $3, $4)`,
+    `INSERT INTO employees (first_name, last_name, role_id, manager_id) VALUES ($1, $2, $3, $4)`,
     [firstName, lastName, roleId, managerId]
   );
 
