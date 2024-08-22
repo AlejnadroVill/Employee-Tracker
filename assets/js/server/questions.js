@@ -92,7 +92,7 @@ function updateEmployeeRoleQuestions(roleList, employeeList) {
       type: "rawlist",
       name: "employeeName",
       message: "Choose an employee",
-      choices: [employeeNames],
+      choices: employeeNames,
     },
     {
       type: "rawlist",
