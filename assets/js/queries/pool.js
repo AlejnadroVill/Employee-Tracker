@@ -6,7 +6,7 @@ const pool = new Pool({
   user: "postgres",
   password: "Miki1305.com",
   host: "localhost",
-  database: "employeesDB",
+  database: "employees_db",
 });
 
 // Connects the client to the DB

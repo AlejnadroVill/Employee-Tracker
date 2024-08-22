@@ -1,5 +1,3 @@
-const { addRole } = require("../queries/queries");
-
 const actionMenu = [
   {
     type: "rawlist",
@@ -10,8 +8,8 @@ const actionMenu = [
       "View Roles",
       "View Employees",
       "Add Department",
-      "Add Roles",
-      "Add Employees",
+      "Add Role",
+      "Add Employee",
       "Update Employee Role",
       "Quit Program",
     ],

@@ -10,7 +10,7 @@ INSERT INTO roles (title, salary, department_id) VALUES
 ('Financial Analyst', 55000, 2),
 ('Operations Coordinator', 50000, 3),
 ('R&D Scientist', 70000, 4),
-('Customer Service Representative', 30000, 5),
+('Customer Service Rep', 30000, 5),
 ('Product Manager', 60000, 1),
 ('Budget Analyst', 53000, 2);
 
